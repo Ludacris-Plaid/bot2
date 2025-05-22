@@ -1,0 +1,8 @@
+[build]
+  command = "pip install -r requirements.txt"
+  functions = "functions"
+  publish = "public"
+  environment = { PYTHON_VERSION = "3.10" }
+
+[functions]
+  external_node_modules = ["flask", "python-telegram-bot", "gunicorn"]
