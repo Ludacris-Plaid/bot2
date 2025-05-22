@@ -4,6 +4,6 @@
   publish = "public"
   environment = { PYTHON_VERSION = "3.10" }
 
-[[functions]]
+[functions]
   directory = "functions"
   external_node_modules = ["flask", "python-telegram-bot", "gunicorn"]
